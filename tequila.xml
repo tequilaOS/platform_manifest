@@ -11,7 +11,8 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
-  <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
+  <!-- external -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- hardware -->
   <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom-caf_sm8250_audio" groups="qcom" remote="tequila" />
@@ -25,6 +26,7 @@
   <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="tequila" />
   <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="tequila" />
   <project path="hardware/tequila/compat" name="platform_hardware_tequila_compat" remote="tequila" />
+  <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
   <!-- packages -->
   <project path="packages/apps/Aperture" name="platform_packages_apps_Aperture" remote="tequila" />
