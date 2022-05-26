@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="tequila"
+             fetch="https://github.com/tequilaOS"
+             revision="refs/heads/sombrero" />
+
+    <remote  name="tequila-gitlab"
+             fetch="https://gitlab.com/tequilaOS"
+             revision="refs/heads/sombrero" />
+
+    <!-- rootdir -->
+    <project path="bionic" name="platform_bionic" remote="tequila" />
+    <project path="manifest" name="platform_manifest" remote="tequila" />
+    <project path="tequila_ota" name="tequila_ota" remote="tequila" />
+
+    <project path="build/make" name="platform_build" groups="pdk" remote="tequila">
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="tequila">
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- bootable -->
+    <project path="bootable/recovery" name="platform_bootable_recovery" remote="tequila" />
+
+    <!-- external -->
+    <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="tequila" />
+    <project path="external/json-c" name="platform_external_json-c" remote="tequila" />
+    <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
+
+    <!-- device -->
+    <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
+    <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="tequila" />
+    <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
+    <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
+
+    <!-- hardware -->
+    <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
+    <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">
+        <!-- add guard for AOSP hardware/qcom dir -->
+        <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+        <!-- for AOSP sm8150, we override os_pickup.mk -->
+        <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+        <!-- add guards for CAF repositories -->
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+        <!-- add namespace for BT adv audio, as required for QTI BT stack -->
+        <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
+    </project>
+    <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+    <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+    <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
+
+    <!-- frameworks -->
+    <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
+    <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
+
+    <!-- packages -->
+    <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="tequila" />
+    <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="tequila" />
+    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
+    <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
+    <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
+    <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
+
+    <!-- prebuilts -->
+    <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" remote="tequila" />
+    <project path="prebuilts/tools-tequila" name="platform_prebuilts_tools-tequila" remote="tequila" />
+
+    <!-- system -->
+    <project path="system/bt" name="platform_system_bt" remote="tequila" />
+    <project path="system/core" name="platform_system_core" remote="tequila" />
+    <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+    <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
+
+    <!-- vendor -->
+    <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tequila" />
+    <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
+    <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="tequila-gitlab" />
+    <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
+
+    <!-- vendor/qcom -->
+    <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_commonsys-intf_bluetooth" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_commonsys-intf_display" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_commonsys_bluetooth_ext" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_commonsys_display" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_commonsys_system_bt" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="platform_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/usb" name="platform_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="vendor/qcom/opensource/wfd-commonsys" name="platform_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="tequila" />
+
+</manifest>

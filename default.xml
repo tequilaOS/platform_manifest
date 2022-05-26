@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-12.1.0_r5"
-           remote="aosp"
-           sync-j="4" />
+           remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r5" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1104,4 +1104,6 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <include name="remove.xml" />
+  <include name="tequila.xml" />
 </manifest>
