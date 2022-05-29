@@ -70,6 +70,7 @@
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="tequila" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="tequila" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
+    <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tequila" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
     <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
     <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
