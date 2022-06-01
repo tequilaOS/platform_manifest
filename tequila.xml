@@ -35,6 +35,7 @@
     <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="tequila" />
     <project path="external/json-c" name="platform_external_json-c" remote="tequila" />
     <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
+    <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
     <!-- device -->
     <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
