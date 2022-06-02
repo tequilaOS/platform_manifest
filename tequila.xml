@@ -48,6 +48,7 @@
     <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
     <!-- hardware -->
+    <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
     <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
     <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
     <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">

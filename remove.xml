@@ -16,6 +16,7 @@
     <remove-project name="platform/external/tinycompress" />
 
     <!-- hardware -->
+    <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
 
     <!-- frameworks -->
