@@ -72,6 +72,7 @@
     <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom-caf_sm8250_media" groups="qcom,pdk-qcom" remote="tequila" />
     <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,pdk-qcom" remote="tequila" />
     <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
+    <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
