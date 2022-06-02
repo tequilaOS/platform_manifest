@@ -65,6 +65,7 @@
     <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom-caf_sm8250_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
     <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom-caf_sm8250_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
     <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom-caf_sm8250_media" groups="qcom,pdk-qcom" remote="tequila" />
+    <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,pdk-qcom" remote="tequila" />
     <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
 
     <!-- frameworks -->
