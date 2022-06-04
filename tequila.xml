@@ -105,6 +105,12 @@
     <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tequila" />
     <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
     <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="tequila-gitlab" />
+    <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="tequila">
+        <linkfile src="zxing-android-embedded/res-orig/*" dest="vendor/support/res-orig" />
+        <linkfile src="zxing-android-embedded/res/*" dest="vendor/support/res-qr" />
+        <linkfile src="zxing-android-embedded/src/com/google/zxing/*" dest="vendor/support/src/com/google/zxing" />
+        <linkfile src="zxing-android-embedded/src/com/journeyapps/barcodescanner/*" dest="vendor/support/src/com/journeyapps/barcodescanner" />
+    </project>
     <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
     <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
