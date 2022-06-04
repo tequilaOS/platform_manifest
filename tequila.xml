@@ -9,6 +9,14 @@
              fetch="https://gitlab.com/tequilaOS"
              revision="refs/heads/sombrero" />
 
+    <remote  name="pixel"
+             fetch="https://github.com/PixelExperience"
+             revision="refs/heads/twelve" />
+
+    <remote  name="pixel-gitlab-self-hosted"
+             fetch="https://gitlab.pixelexperience.org/android"
+             revision="refs/heads/twelve" />
+
     <!-- rootdir -->
     <project path="bionic" name="platform_bionic" remote="tequila" />
     <project path="manifest" name="platform_manifest" remote="tequila" />
@@ -40,6 +48,7 @@
     <project path="external/json-c" name="platform_external_json-c" remote="tequila" />
     <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
     <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
+    <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
 
     <!-- device -->
     <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
@@ -95,6 +104,7 @@
     <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
     <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
+    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
     <!-- prebuilts -->
     <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" remote="tequila" />
