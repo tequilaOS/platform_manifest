@@ -66,6 +66,8 @@
         <!-- for AOSP sm8150, we override os_pickup.mk -->
         <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
         <!-- add guards for CAF repositories -->
+        <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+        <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
@@ -75,6 +77,9 @@
         <!-- add namespace for BT adv audio, as required for QTI BT stack -->
         <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
     </project>
+    <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,sdm660,qcom_audio" remote="tequila" revision="sombrero-caf-sdm660" />
+    <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,sdm660,qcom_display" remote="tequila" revision="sombrero-caf-sdm660" />
+    <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,sdm660,qcom_media" remote="tequila" revision="sombrero-caf-sdm660" />
     <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" revision="sombrero-caf-sm8150" />
     <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" revision="sombrero-caf-sm8150" />
     <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="tequila" revision="sombrero-caf-sm8150" />
