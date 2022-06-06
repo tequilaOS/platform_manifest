@@ -56,6 +56,11 @@
     <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
     <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
+    <!-- frameworks -->
+    <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
+    <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
+
     <!-- hardware -->
     <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
     <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
@@ -93,14 +98,10 @@
     <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
     <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
-    <!-- frameworks -->
-    <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
-    <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
-
     <!-- packages -->
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="tequila" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="tequila" />
+    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tequila" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
@@ -109,7 +110,6 @@
     <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
     <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
-    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
 
     <!-- prebuilts -->
     <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" remote="tequila" />
