@@ -34,6 +34,7 @@
     <remove-project name="platform/packages/apps/WallpaperPicker2" />
     <remove-project name="platform/packages/modules/adb" />
     <remove-project name="platform/packages/modules/common" />
+    <remove-project name="platform/packages/services/Telephony" />
 
     <!-- system -->
     <remove-project name="platform/system/bt" />
