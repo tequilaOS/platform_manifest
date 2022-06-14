@@ -17,6 +17,9 @@
              fetch="https://gitlab.pixelexperience.org/android"
              revision="refs/heads/twelve" />
 
+    <remote  name="github"
+             fetch="https://github.com" />
+
     <!-- rootdir -->
     <project path="bionic" name="platform_bionic" remote="tequila" />
     <project path="manifest" name="platform_manifest" remote="tequila" />
@@ -104,6 +107,7 @@
     <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tequila" />
+    <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
     <project path="packages/apps/SimpleDeviceConfig" name="platform_packages_apps_SimpleDeviceConfig" remote="tequila" />
     <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
