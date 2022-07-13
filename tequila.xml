@@ -107,6 +107,7 @@
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="tequila" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="tequila" />
     <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+    <project path="packages/apps/GmsCompat" name="ProtonAOSP/android_packages_apps_GmsCompat" remote="github" revision="sc-qpr3" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tequila" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
