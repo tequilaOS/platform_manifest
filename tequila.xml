@@ -22,6 +22,7 @@
 
     <!-- rootdir -->
     <project path="bionic" name="platform_bionic" remote="tequila" />
+    <project path="libcore" name="platform_libcore" remote="tequila" />
     <project path="manifest" name="platform_manifest" remote="tequila" />
     <project path="tequila_ota" name="tequila_ota" remote="tequila" />
 
