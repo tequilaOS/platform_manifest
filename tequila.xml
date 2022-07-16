@@ -130,6 +130,7 @@
     <project path="system/bt" name="platform_system_bt" remote="tequila" />
     <project path="system/core" name="platform_system_core" remote="tequila" />
     <project path="system/logging" name="platform_system_logging" remote="tequila" />
+    <project path="system/media" name="platform_system_media" remote="tequila" />
     <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
     <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
 
