@@ -3,7 +3,8 @@
 
     <remote  name="tequila"
              fetch="https://github.com/tequilaOS"
-             revision="refs/heads/sombrero" />
+             revision="refs/heads/sombrero" 
+             review="review.tequilaos.pl" />
 
     <remote  name="tequila-gitlab"
              fetch="https://gitlab.com/tequilaOS"
