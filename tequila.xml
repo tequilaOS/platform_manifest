@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="tequila"
+           fetch="https://github.com/tequilaOS"
+           revision="refs/heads/tobacco" />
+
+  <remote  name="tequila-gitlab"
+           fetch="https://gitlab.com/tequilaOS"
+           revision="refs/heads/tobacco" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <project path="manifest" name="platform_manifest" remote="tequila" />
+  <project path="tequila_ota" name="tequila_ota" remote="tequila" />
+
+  <project path="build/make" name="platform_build" groups="pdk" remote="tequila" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="tequila" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
+
+</manifest>
