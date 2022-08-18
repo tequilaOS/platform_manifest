@@ -60,9 +60,14 @@
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" revision="tobacco-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" revision="tobacco-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="tequila" revision="tobacco-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" revision="tobacco-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" revision="tobacco-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="tequila" revision="tobacco-caf-sm8250" />
