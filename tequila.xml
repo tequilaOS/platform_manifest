@@ -125,6 +125,8 @@
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
 
   <!-- prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="tequila" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="tequila" />
   <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" remote="tequila" />
   <project path="prebuilts/tools-tequila" name="platform_prebuilts_tools-tequila" remote="tequila" />
 
