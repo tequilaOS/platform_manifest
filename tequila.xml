@@ -41,6 +41,10 @@
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
   <!-- external -->
+  <project path="external/ant-wireless/ant_client" name="platform_external_ant-wireless_ant_client" remote="tequila" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="tequila" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="tequila" />
+  <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" remote="tequila" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
   <!-- frameworks -->
