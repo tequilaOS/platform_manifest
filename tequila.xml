@@ -86,6 +86,9 @@
   <project path="system/core" name="platform_system_core" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
+  <!-- tools -->
+  <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="tequila" />
+
   <!-- vendor -->
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tequila" />
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
