@@ -46,6 +46,7 @@
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="tequila" />
   <project path="external/ant-wireless/hidl" name="platform_external_ant-wireless_hidl" remote="tequila" />
   <project path="external/json-c" name="platform_external_json-c" remote="tequila" />
+  <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
   <project path="external/tinyxml" name="platform_external_tinyxml" remote="tequila" />
 
