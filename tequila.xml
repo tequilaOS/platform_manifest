@@ -61,6 +61,8 @@
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
@@ -81,6 +83,7 @@
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,pdk-qcom" remote="tequila" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
+  <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="tequila" />
 
   <!-- packages -->
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="tequila" />
