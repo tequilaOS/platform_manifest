@@ -111,6 +111,7 @@
   <project path="system/media" name="platform_system_media" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="tequila" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
 
   <!-- tools -->
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="tequila" />
