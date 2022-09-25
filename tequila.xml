@@ -37,6 +37,7 @@
   <!-- device -->
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="tequila" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
