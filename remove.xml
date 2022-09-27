@@ -89,6 +89,7 @@
 
   <!-- system -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />

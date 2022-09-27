@@ -119,6 +119,7 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="tequila" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="tequila" />
   <project path="system/media" name="platform_system_media" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="tequila" />
