@@ -143,6 +143,7 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
   <project path="packages/apps/tequilaPapers" name="platform_packages_apps_tequilaPapers" remote="tequila" />
   <project path="packages/apps/tequilaSettings" name="platform_packages_apps_tequilaSettings" remote="tequila" />
+  <project path="packages/apps/TouchGestures" name="platform_packages_apps_TouchGestures" remote="tequila" />
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="tequila" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="tequila" />
   <project path="packages/modules/common" name="platform_packages_modules_common" remote="tequila" />
