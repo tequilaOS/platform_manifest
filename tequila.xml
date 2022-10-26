@@ -140,14 +140,6 @@
   <project path="vendor/nxp/nfc" name="platform_vendor_nxp_nfc" remote="tequila" />
   <project path="vendor/nxp/secure_element" name="platform_vendor_nxp_secure_element" remote="tequila" />
   <project path="vendor/nxp/secure_element_extns" name="platform_vendor_nxp_secure_element_extns" remote="tequila" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="tequila" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="tequila" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="platform_vendor_nxp_opensource_frameworks" remote="tequila" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="tequila" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="tequila" revision="tobacco-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="tequila" revision="tobacco-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="platform_vendor_nxp_opensource_halimpl" remote="tequila" revision="tobacco-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="platform_vendor_nxp_opensource_hidlimpl" remote="tequila" revision="tobacco-sn100x" />
 
   <!-- vendor/qcom -->
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="tequila" />
