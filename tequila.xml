@@ -100,6 +100,7 @@
   <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="tequila" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,pdk-qcom" remote="tequila" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
+  <project path="hardware/tequila/compat" name="platform_hardware_tequila_compat" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="tequila" />
 
