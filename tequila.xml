@@ -60,6 +60,7 @@
 
   <!-- hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
+  <project path="hardware/tequila/compat" name="hardware_tequila_compat" remote="tequila" />
   <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">
     <!-- add guard for AOSP hardware/qcom dir -->
