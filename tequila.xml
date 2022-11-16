@@ -135,6 +135,7 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tequila" />
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
   <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="tequila-gitlab" />
+  <project path="vendor/qrcode/zxing" name="platform_vendor_qrcode_zxing" remote="tequila" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
   <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
 
