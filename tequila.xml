@@ -32,6 +32,19 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="tequila" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
+  <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
+
+  <!-- external -->
+  <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
+
+  <!-- system -->
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+
   <!-- vendor -->
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
   <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="tequila-gitlab" />
