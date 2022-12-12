@@ -84,6 +84,7 @@
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="tequila" />
 
   <!-- system -->
+  <project path="system/core" name="platform_system_core" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
   <!-- vendor -->
