@@ -42,6 +42,47 @@
   <!-- external -->
   <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
 
+  <!-- hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
+  <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="tequila">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom-caf_sdm845_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom-caf_sdm845_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom-caf_sdm845_media" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom-caf_sm8250_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom-caf_sm8250_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom-caf_sm8250_media" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="platform_hardware_qcom-caf_sm8350_audio" groups="qcom,pdk-qcom,qcom_audio" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="qcom,pdk-qcom,qcom_display" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8350/media" name="platform_hardware_qcom-caf_sm8350_media" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom-caf_thermal" groups="qcom,pdk-qcom" remote="tequila" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="qcom_wlan,pdk-qcom" remote="tequila" />
+  <project path="hardware/tequila/compat" name="platform_hardware_tequila_compat" remote="tequila" />
+  <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
+  <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="tequila" />
+
   <!-- system -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
