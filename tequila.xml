@@ -41,6 +41,7 @@
 
   <!-- external -->
   <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
   <!-- frameworks -->
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
