@@ -83,9 +83,16 @@
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
   <project path="hardware/qcom/sdm845/display" name="platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="tequila" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/extract-tools" name="platform_prebuilts_extract-tools" remote="tequila" />
+  <project path="prebuilts/tools-tequila" name="platform_prebuilts_tools-tequila" remote="tequila" />
+
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+
+  <!-- tools -->
+  <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="tequila" />
 
   <!-- vendor -->
   <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
