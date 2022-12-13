@@ -42,6 +42,9 @@
   <!-- external -->
   <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
 
+  <!-- frameworks -->
+  <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
+
   <!-- hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
   <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
