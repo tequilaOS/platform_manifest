@@ -54,6 +54,8 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
   <!-- frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
 
   <!-- hardware -->
