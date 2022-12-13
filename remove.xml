@@ -66,6 +66,8 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 
