@@ -113,7 +113,10 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="tequila" />
+  <project path="system/logging" name="platform_system_logging" remote="tequila" />
+  <project path="system/security" name="platform_system_security" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+  <project path="system/vold" name="platform_system_vold" remote="tequila" />
 
   <!-- tools -->
   <project path="tools/extract-utils" name="platform_tools_extract-utils" remote="tequila" />
