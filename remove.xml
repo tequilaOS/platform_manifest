@@ -77,6 +77,7 @@
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
