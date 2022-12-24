@@ -53,6 +53,7 @@
   <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
   <project path="external/selinux" name="platform_external_selinux" remote="tequila" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
+  <project path="external/tinyxml" name="platform_external_tinyxml" remote="tequila" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
