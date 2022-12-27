@@ -104,6 +104,8 @@
 
   <!-- packages -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
   <project path="packages/apps/tequilaSettings" name="platform_packages_apps_tequilaSettings" remote="tequila" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="tequila" />
