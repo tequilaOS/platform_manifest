@@ -132,6 +132,7 @@
   <project path="system/logging" name="platform_system_logging" remote="tequila" />
   <project path="system/security" name="platform_system_security" remote="tequila" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+  <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" remote="tequila" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
   <project path="system/vold" name="platform_system_vold" remote="tequila" />
 
