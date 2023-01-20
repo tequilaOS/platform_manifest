@@ -116,6 +116,7 @@
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="tequila" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
   <project path="packages/apps/tequilaSettings" name="platform_packages_apps_tequilaSettings" remote="tequila" />
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="tequila" />
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="tequila" />
