@@ -65,6 +65,7 @@
   <project path="frameworks/av" name="platform_frameworks_av" remote="tequila" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="tequila" />
 
   <!-- hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
