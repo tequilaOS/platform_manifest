@@ -7,7 +7,7 @@
            review="https://review.tequilaos.pl" />
 
   <remote  name="tequila-gitlab"
-           fetch="https://gitlab.com/tequilaOS"
+           fetch="https://gitlab.com/tequilaOS/android"
            revision="refs/heads/tortilla"
            review="https://review.tequilaos.pl" />
 
