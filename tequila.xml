@@ -146,6 +146,7 @@
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="tequila" />
   <project path="packages/modules/common" name="platform_packages_modules_common" remote="tequila" />
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="tequila" />
 
   <!-- prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="tequila" />
