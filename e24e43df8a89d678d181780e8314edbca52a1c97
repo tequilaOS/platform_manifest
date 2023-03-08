@@ -16,6 +16,23 @@
       "message": "brought up to the discussion many times and it never made up to the source",
       "revId": "e24e43df8a89d678d181780e8314edbca52a1c97",
       "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "994c8174_1e4465b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000010
+      },
+      "writtenOn": "2023-03-08T23:00:19Z",
+      "side": 1,
+      "message": "we don\u0027t need it, why would we copypasting from other roms?",
+      "revId": "e24e43df8a89d678d181780e8314edbca52a1c97",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
     }
   ]
 }
