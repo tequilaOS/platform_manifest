@@ -71,6 +71,7 @@
 
   <!-- hardware -->
   <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="tequila" />
+  <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" remote="tequila" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
   <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom-caf_bootctrl" groups="qcom,pdk-qcom" remote="tequila" />
