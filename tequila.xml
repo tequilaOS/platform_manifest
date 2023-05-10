@@ -4,12 +4,12 @@
   <remote  name="tequila"
            fetch="https://github.com/tequilaOS"
            revision="refs/heads/tortilla"
-           review="https://review.tequilaos.pl" />
+           review="https://review.tequilaos.org" />
 
   <remote  name="tequila-gitlab"
            fetch="https://gitlab.com/tequilaOS/android"
            revision="refs/heads/tortilla"
-           review="https://review.tequilaos.pl" />
+           review="https://review.tequilaos.org" />
 
   <remote  name="pe-gitlab-self-hosted"
            fetch="https://gitlab.pixelexperience.org/android"
