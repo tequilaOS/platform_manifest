@@ -102,6 +102,12 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
+  <!-- external -->
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="tequila" />
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
