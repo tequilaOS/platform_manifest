@@ -84,6 +84,11 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="tequila" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
+  <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
   <!-- vendor -->
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
