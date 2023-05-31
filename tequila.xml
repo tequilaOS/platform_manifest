@@ -103,6 +103,8 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
   <!-- packages -->
