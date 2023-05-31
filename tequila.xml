@@ -98,6 +98,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
+  <!-- packages -->
+  <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
+
   <!-- vendor -->
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
