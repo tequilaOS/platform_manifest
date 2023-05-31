@@ -107,6 +107,8 @@
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="tequila" />
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="platform_external_mksh" remote="tequila" />
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/native" />
