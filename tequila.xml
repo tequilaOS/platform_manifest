@@ -111,6 +111,8 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="tequila" />
 
   <!-- frameworks -->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
 
