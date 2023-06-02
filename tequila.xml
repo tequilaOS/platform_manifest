@@ -124,6 +124,7 @@
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
   <!-- packages -->
+  <project path="packages/apps/Aperture" name="platform_packages_apps_Aperture" remote="tequila" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="tequila" />
   <remove-project name="platform/packages/apps/Settings" />
