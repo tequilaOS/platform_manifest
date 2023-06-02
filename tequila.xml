@@ -133,6 +133,10 @@
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
+  <remove-project name="platform/packages/modules/adb" />
+  <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="tequila" />
+  <remove-project name="platform/packages/modules/common" />
+  <project path="packages/modules/common" name="platform_packages_modules_common" remote="tequila" />
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="tequila" />
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
@@ -140,6 +144,8 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform_system_core" remote="tequila" />
+  <remove-project name="platform/system/logging" />
+  <project path="system/logging" name="platform_system_logging" remote="tequila" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
