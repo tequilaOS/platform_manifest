@@ -119,6 +119,8 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="tequila" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="tequila" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="tequila" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/libhardware" />
