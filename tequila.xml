@@ -148,6 +148,8 @@
   <project path="system/core" name="platform_system_core" remote="tequila" />
   <remove-project name="platform/system/logging" />
   <project path="system/logging" name="platform_system_logging" remote="tequila" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
