@@ -150,6 +150,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
 
   <!-- vendor -->
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="tequila-gitlab" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
 </manifest>
