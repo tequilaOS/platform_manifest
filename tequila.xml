@@ -158,6 +158,7 @@
 
   <!-- vendor -->
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="tequila-gitlab" />
+  <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
 </manifest>
