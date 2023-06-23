@@ -145,6 +145,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/tequilaPapers" name="platform_packages_apps_tequilaPapers" remote="tequila" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="tequila" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="tequila" />
   <remove-project name="platform/packages/modules/adb" />
