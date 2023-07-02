@@ -171,4 +171,6 @@
   <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
+  <project path="tequila_ota" name="tequila_ota" remote="tequila" revision="main" />
+
 </manifest>
