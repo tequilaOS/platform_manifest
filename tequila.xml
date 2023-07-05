@@ -72,6 +72,9 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/felix" />
+  <remove-project name="device/google/felix-kernel" />
+  <remove-project name="device/google/felix-sepolicy" />
   <remove-project name="device/google/lynx" />
   <remove-project name="device/google/lynx-kernel" />
   <remove-project name="device/google/lynx-sepolicy" />
@@ -83,7 +86,9 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
-  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-kernel" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
   <remove-project name="device/google/gs201" />
@@ -102,6 +107,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
