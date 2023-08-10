@@ -76,7 +76,12 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
-
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="pdk" remote="lineage" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk" remote="lineage" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="pdk" remote="lineage" />
 
   <!-- prebuilts -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" />
