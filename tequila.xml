@@ -132,6 +132,8 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="tequila" />
 
   <!-- hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
@@ -164,10 +166,14 @@
   <project path="system/core" name="platform_system_core" remote="tequila" />
   <remove-project name="platform/system/logging" />
   <project path="system/logging" name="platform_system_logging" remote="tequila" />
-  <remove-project name="platform/system/update_engine" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
+  <remove-project name="platform/system/security" />
+  <project path="system/security" name="platform_system_security" remote="tequila" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="tequila" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="platform_system_vold" remote="tequila" />
 
   <!-- vendor -->
   <project path="vendor/gapps" name="platform_vendor_gapps" remote="tequila-gitlab" />
