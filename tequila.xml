@@ -136,6 +136,8 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="tequila" />
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="tequila" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
   <!-- packages -->
