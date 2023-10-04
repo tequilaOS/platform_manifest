@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- rootdir -->
+  <project path="manifest" name="platform_manifest" remote="tequila" />
+
+  <!-- device -->
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="tequila" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="platform_device_qcom_sepolicy_vndr-legacy-um" remote="tequila" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="tequila" />
+  <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
+
+  <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
+
+  <!-- packages -->
+  <project path="packages/apps/Aperture" name="platform_packages_apps_Aperture" remote="tequila" />
+  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
+  <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
+
+  <!-- vendor -->
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="tequila-gitlab" />
+  <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
+  <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
+
+  <project path="tequila_ota" name="tequila_ota" remote="tequila" revision="main" />
+
+</manifest>
