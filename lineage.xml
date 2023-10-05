@@ -11,17 +11,11 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
-  <remove-project name="platform/external/dtc" />
-  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
 
   <!-- hardware -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-  <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
 
   <!-- hardware/qcom-caf -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
@@ -90,46 +84,9 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="lineage" />
 
-  <remove-project name="platform/hardware/qcom/sm7250/display" />
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/sm7250/gps" />
-  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" remote="lineage">
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
-  </project>
-  <remove-project name="platform/hardware/qcom/sm7250/media" />
-  <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom,qcom_sm7250" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom,qcom_sm8150" remote="lineage">
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
-  </project>
-  <remove-project name="platform/hardware/qcom/sm8150/display" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/sm8150/gps" />
-  <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/sm8150/media" />
-  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" remote="lineage" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
-  
   <!-- prebuilts -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="lineage" />
-  <remove-project name="platform/prebuilts/build-tools" />
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
