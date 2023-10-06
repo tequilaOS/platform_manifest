@@ -28,6 +28,10 @@
   <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
+  <!-- vendor/qcom -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="tequila" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" groups="qcom,waipio-vendor" remote="tequila" />
+
   <project path="tequila_ota" name="tequila_ota" remote="tequila" revision="main" />
 
 </manifest>
