@@ -17,6 +17,7 @@
     <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom-caf_sm8250_display" groups="qcom" remote="tequila" />
     <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="qcom" remote="tequila" />
     <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="tequila" />
+    <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="tequila" />
 
   <!-- packages -->
   <project path="packages/apps/Aperture" name="platform_packages_apps_Aperture" remote="tequila" />

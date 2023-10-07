@@ -62,7 +62,6 @@
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" remote="lineage" revision="lineage-20.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-20.0-caf-sm8550" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
