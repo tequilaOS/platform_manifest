@@ -153,7 +153,7 @@
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
   <project path="external/dtc" name="platform_external_dtc" remote="tequila" groups="pdk"/>
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="tequila" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
@@ -211,7 +211,7 @@
   <project path="external/google-smali" name="platform/external/google-smali" groups="pdk" />
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="tequila" groups="pdk" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" />
   <project path="external/gson" name="platform/external/gson" groups="pdk,tradefed" />
@@ -338,7 +338,7 @@
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <project path="external/mksh" name="platform_external_mksh" remote="tequila" groups="pdk" />
   <project path="external/python/mobly" name="platform/external/python/mobly" groups="pdk" />
   <project path="external/mobile-data-download" name="platform/external/mobile-data-download" groups="pdk" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" />
