@@ -1174,7 +1174,7 @@
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="tequila" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/dittosuite" name="platform/test/dittosuite" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" />
