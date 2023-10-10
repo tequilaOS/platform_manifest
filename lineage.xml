@@ -14,9 +14,6 @@
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
 
-  <!-- hardware -->
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-
   <!-- hardware/qcom-caf -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="lineage" >
