@@ -30,7 +30,8 @@
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
 
   <!-- vendor -->
-  <project path="vendor/gapps" name="platform_vendor_gapps" remote="tequila-gitlab" />
+  <project path="vendor/google/gms" name="platform_vendor_google_gms" remote="tequila-gitlab" />
+  <project path="vendor/google/pixel" name="platform_vendor_google_pixel" remote="tequila-gitlab" />
   <project path="vendor/support" name="platform_vendor_support" remote="tequila" />
   <project path="vendor/tequila" name="platform_vendor_tequila" remote="tequila" />
 
