@@ -14,6 +14,7 @@
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
   <!-- hardware -->
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom-caf_sm8250_audio" groups="qcom" remote="tequila" />
   <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="qcom,sdm660" remote="tequila" />
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom-caf_sdm845_display" groups="qcom" remote="tequila" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="qcom" remote="tequila" />
