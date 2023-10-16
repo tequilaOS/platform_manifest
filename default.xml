@@ -1207,6 +1207,13 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
+  <!-- remove unused repos -->
+  <include name="remove.xml" />
+
+  <!-- tequila repos -->
   <include name="tequila.xml" />
+
+  <!-- lineage repos -->
   <include name="lineage.xml" />
+
 </manifest>

@@ -28,6 +28,7 @@
 
   <!-- packages -->
   <project path="packages/apps/Aperture" name="platform_packages_apps_Aperture" remote="tequila" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="tequila" />
   <project path="packages/apps/tequilaPapers" name="platform_packages_apps_tequilaPapers" remote="tequila" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="tequila" />
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="tequila" />
