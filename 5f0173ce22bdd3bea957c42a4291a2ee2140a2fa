@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42b27a7b_e2836770",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-17T16:31:29Z",
+      "side": 1,
+      "message": "replace the repository in default.xml instead",
+      "revId": "5f0173ce22bdd3bea957c42a4291a2ee2140a2fa",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    }
+  ]
+}
