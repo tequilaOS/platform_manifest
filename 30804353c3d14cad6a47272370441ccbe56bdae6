@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0d5ca63_99af58ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-24T18:03:08Z",
+      "side": 1,
+      "message": "Maybe we should wait for all HALs to be updated in LOS and switch them all back then?",
+      "revId": "30804353c3d14cad6a47272370441ccbe56bdae6",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    }
+  ]
+}
