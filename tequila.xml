@@ -12,19 +12,10 @@
   <project path="device/tequila/sepolicy" name="platform_device_tequila_sepolicy" remote="tequila" />
 
   <!-- external -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- hardware -->
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom-caf_sm8250_audio" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="qcom,sdm660" remote="tequila" />
-  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom-caf_sdm845_display" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom-caf_sm8250_display" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8350/display" name="platform_hardware_qcom-caf_sm8350_display" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8450/display" name="platform_hardware_qcom-caf_sm8450_display" groups="qcom" remote="tequila" />
-  <project path="hardware/qcom-caf/sm8550/display" name="platform_hardware_qcom-caf_sm8550_display" groups="qcom" remote="tequila" />
   <project path="hardware/tequila/compat" name="platform_hardware_tequila_compat" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
