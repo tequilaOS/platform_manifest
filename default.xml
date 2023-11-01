@@ -10,6 +10,11 @@
            revision="refs/heads/uno"
            review="https://review.tequilaos.org" />
 
+  <remote  name="tequila-gitea"
+           fetch="https://git.tequilaos.org/android"
+           revision="refs/heads/uno"
+           review="https://review.tequilaos.org" />
+
   <remote  name="tequila-gitlab"
            fetch="https://gitlab.com/tequilaOS/android"
            revision="refs/heads/uno"
