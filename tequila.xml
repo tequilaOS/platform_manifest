@@ -16,6 +16,9 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- hardware -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom-caf_sm8150_audio" groups="qcom,msmnile" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom-caf_sm8150_media" groups="qcom,msmnile" remote="tequila" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom-caf_sm8150_display" groups="qcom,msmnile" remote="tequila" />
   <project path="hardware/tequila/compat" name="platform_hardware_tequila_compat" remote="tequila" />
   <project path="hardware/tequila/interfaces" name="platform_hardware_tequila_interfaces" remote="tequila" />
 
