@@ -269,7 +269,7 @@
   <project path="external/libchromeos-rs" name="platform/external/libchromeos-rs" groups="pdk" />
   <project path="external/libconfig" name="platform/external/libconfig" groups="pdk" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
+  <project path="external/libcxx" name="platform_external_libcxx" groups="pdk" remote="tequila" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
